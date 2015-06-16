@@ -23,6 +23,16 @@ from pygal.style import CleanStyle
 ### (u'1434379467.58', u'24.1', u'50.0')
 
 
+### sqlite> select * from customer ORDER BY id DESC LIMIT 2;
+### id|customer|date
+### 6|Netn|2017-12-31
+### 5|DSVL|2015-12-31
+### sqlite> select * from customer LIMIT 2;
+### id|customer|date
+### 1|Locel|2015-12-31
+### 2|Sissco|2015-12-31
+
+
 
 temp = []
 hum  = []
